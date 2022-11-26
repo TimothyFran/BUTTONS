@@ -1,0 +1,14 @@
+BUTTONS	KEYWORD1
+
+begin	KEYWORD2
+read	KEYWORD2
+isPressed	KEYWORD2
+isReleased	KEYWORD2
+enableDebounce	KEYWORD2
+disableDebounce	KEYWORD2
+setDebounceTime	KEYWORD2
+getCounts	KEYWORD2
+countsToEeprom	KEYWORD2
+countsFromEeprom	KEYWORD2
+
+PULLUP	KEYWORD2
