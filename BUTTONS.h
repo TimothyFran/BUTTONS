@@ -13,7 +13,7 @@ class BUTTON {
     #define PULLUP true
   public:
     BUTTON(byte Pin);
-    void begin(bool mode);
+    void begin(bool mode = false);
     bool read();
     bool isPressed();
     bool isReleased();
