@@ -5,7 +5,7 @@ BUTTON::BUTTON(byte Pin){
     pin = Pin;
 }
 
-void BUTTON::begin(bool mode){
+void BUTTON::begin(bool mode = false){
     // This functions sets the pinmode and registers the initial state of prevState
     if(mode == true) {
         pinMode(pin, INPUT_PULLUP);
