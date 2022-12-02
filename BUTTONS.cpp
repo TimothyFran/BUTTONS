@@ -15,6 +15,7 @@ void BUTTON::begin(bool mode){
         pressed = HIGH;
     }
     prevState = digitalRead(pin);
+    lastDebouncedState = digitalRead(pin);
 }
 
 bool BUTTON::read(){
